@@ -1,0 +1,16 @@
+Author: Nicolas Dodelier <dooda .AT. mcdooda .DOT. me>
+
+Includes wiiuse v0.12 by Michael Laforest. http://wiiuse.net/
+
+In order to compile luawie, these packages are required:
+make gcc liblua5.1-dev libbluetooth-dev libxtst-dev
+
+Then:
+$ make
+$ ./luawie3 script/tests/wiimote.lua
+
+Hold A + B (on your wiimote) to quit this test.
+
+The scripts/ folder contains file for playing frets on fire
+with a wii guitar, playing snes games using zsnes and a
+classic controller, etc...
